@@ -1,0 +1,31 @@
+body {
+	background-image: radial-gradient(circle at top, #fff, #333);
+	height: 600px;
+	
+}
+strong {
+	font-weight: bold;
+}
+.text span {
+	font-weight: bold;
+}
+input {
+	background-image: url(../img/i01.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+.text2 {
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+}
+.text2:after {
+	content: '';
+	height: 2px;
+	background-color: red;
+	/*width: 100px;*/
+	margin-left: 20px;
+	margin-right: 20px;
+	flex-grow: 1;
+}
